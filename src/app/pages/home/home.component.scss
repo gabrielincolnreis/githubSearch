@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+.wrapper{
+  .title{
+    position: absolute;
+    width: 488px;
+    height: 109px;
+    left: 476px;
+    top: 405px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 109px;
+    letter-spacing: 0.01em;
+    color: #0069CA;
+  }
+
+  .search-input{
+    ::ng-deep .mat-form-field-flex {
+      display: flex;
+      align-items: center;
+    }
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 592px;
+    height: 48px;
+    left: 320px;
+    top: 570px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+  }
+
+  .search-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 8px;
+    position: absolute;
+    width: 176px;
+    height: 48px;
+    left: 944px;
+    top: 570px;
+    background: #8C19D2;
+    border-radius: 6px;
+  }
+
+  .search-text-button{
+    width: 61px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+
