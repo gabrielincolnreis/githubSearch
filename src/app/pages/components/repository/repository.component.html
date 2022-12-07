@@ -1,0 +1,13 @@
+<div class="wrapper" >
+  <mat-select>
+    <mat-option *ngFor="let repository of repositories">
+      <a href={{repository?.html_url}} class="title">{{repository?.name}}</a>
+      <p class="description">{{repository?.description}}</p>
+      <div class="footer">
+        <mat-icon>star</mat-icon>
+        <p>{{repository?.description}}  Criado em {{repository?.updated_at}} </p>
+      </div>
+    </mat-option>
+  </mat-select>
+</div>
+

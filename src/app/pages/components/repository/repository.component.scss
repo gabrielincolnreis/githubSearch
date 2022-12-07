@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+.wrapper{
+  position: absolute;
+  width: 904px;
+  height: 800px;
+  left: 424px;
+  top: 168px;
+
+  background: #FFFFFF;
+
+  .title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #171923;
+    cursor: pointer;
+  }
+
+  .description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #4A5568;
+  }
+
+  .footer{
+    display: flex;
+  }
+}

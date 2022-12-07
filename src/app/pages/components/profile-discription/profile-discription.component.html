@@ -1,0 +1,42 @@
+<div class="wrapper">
+  <img src={{profileInfo?.avatar_url}} title="Profile Image">
+  <p class="name">{{profileInfo?.name}}</p>
+  <p class="login">{{profileInfo?.login}}</p>
+
+  <div class="media">
+    <div>
+      <mat-icon>people</mat-icon>
+      <p>{{profileInfo?.followers}} seguidores</p>
+    </div>
+    <div>
+      <mat-icon>favoriteborder</mat-icon>
+      <p>{{profileInfo?.following}} seguindo</p>
+    </div>
+  </div>
+
+  <div class="contact">
+    <div>
+      <mat-icon>business</mat-icon>
+      <p>{{profileInfo?.company}}</p>
+    </div>
+    <div>
+      <mat-icon>place</mat-icon>
+      <p>{{profileInfo?.location}}</p>
+    </div>
+    <div>
+      <mat-icon>email</mat-icon>
+      <p>{{profileInfo?.email}}</p>
+    </div>
+    <div>
+      <mat-icon>link</mat-icon>
+      <p>{{profileInfo?.blog}}</p>
+    </div>
+    <div>
+      <mat-icon>twitter</mat-icon>
+      <p>{{profileInfo?.twitter_username}}</p>
+    </div>
+
+  </div>
+
+</div>
+

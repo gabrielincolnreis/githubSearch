@@ -2,36 +2,46 @@
 @import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 
 .wrapper{
+
   .title{
     position: absolute;
-    width: 488px;
-    height: 109px;
-    left: 476px;
-    top: 405px;
+    width: 194px;
+    height: 44px;
+    left: 112px;
+    top: 22px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 500;
-    font-size: 80px;
-    line-height: 109px;
+    font-size: 32px;
+    line-height: 44px;
     letter-spacing: 0.01em;
+
     color: #0069CA;
   }
 
   .search-input{
-    ::ng-deep .mat-form-field-flex {
-      display: flex;
-      align-items: center;
-    }
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    width: 592px;
+    position: absolute;
+    width: 590px;
     height: 48px;
-    left: 320px;
-    top: 570px;
+    left: 425px;
+    top: 20px;
     background: #FFFFFF;
-    border: 1px solid #E2E8F0;
+    border: 2px solid #8C19D2;
     border-radius: 6px;
+  }
+
+  .search-text-input{
+    position: absolute;
+    height: 28px;
+    left: 48px;
+    right: 16px;
+    top: calc(50% - 28px/2);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.36);
   }
 
   .search-button{
@@ -44,8 +54,8 @@
     position: absolute;
     width: 176px;
     height: 48px;
-    left: 944px;
-    top: 570px;
+    left: 1050px;
+    top: 20px;
     background: #8C19D2;
     border-radius: 6px;
     cursor: pointer;
@@ -65,4 +75,3 @@
     flex-grow: 0;
   }
 }
-

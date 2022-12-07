@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
+  searchControl = new FormControl('');
+  constructor(private router: Router) {}
 
   ngOnInit(): void {}
+
+  public searchForUser() {
+    this.router.navigate(['/profile/' + this.searchControl.value]);
+  }
 }

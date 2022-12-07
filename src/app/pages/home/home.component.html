@@ -2,15 +2,12 @@
   <h1 class="title">
     Search d_evs
   </h1>
-  <form>
-    <mat-form-field class="search-input">
-      <mat-icon matPrefix>search</mat-icon>
-      <mat-label>Search</mat-label>
-      <input matInput #searchUser >
-    </mat-form-field>
-
-    <button class="search-button">
-      <span class="search-text-button">Search</span>
-    </button>
-  </form>
+  <mat-form-field class="search-input">
+    <mat-icon matPrefix>search</mat-icon>
+    <mat-label>Search</mat-label>
+    <input matInput [formControl]="searchControl">
+  </mat-form-field>
+  <button class="search-button" (click)="searchForUser()">
+    <span class="search-text-button">Search</span>
+  </button>
 </div>
